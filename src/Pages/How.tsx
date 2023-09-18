@@ -88,6 +88,9 @@ color: white;
     transform: scale(1.05);
     cursor: pointer;
 }
+@media screen and (max-width: 500px){
+    margin-top: 100px;
+}
 `
 const Write = styled.div`
 width: 290px;
@@ -119,6 +122,14 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 gap: 20px;
+@media screen and (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+}
 `
 const Box1 = styled.div`
 width: 100%;
@@ -127,11 +138,27 @@ height: 50%;
 display: flex;
 align-items: center;
 gap: 30px;
+@media screen and (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-direction: column;
+}
 `
 const Boxes = styled.div`
 width: 100%;
 height: 300px;
 // background-color: green;
+@media screen and (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    flex-direction: column;
+}
 `
 const Head = styled.div`
 font-size: 35px;
@@ -141,7 +168,15 @@ const End = styled.div``
 const Middle = styled.div`
 width: 100%;
 height: 25%;
+flex-wrap: wrap;
 // background-color: red;
+@media screen and (max-width: 500px) {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
 `
 // const Top = styled.div``
 const Side = styled.div`
@@ -153,6 +188,7 @@ width: 60%;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    gap: 50px;
 }
 `
 
@@ -209,6 +245,14 @@ width: 100%;
 height: 25%;
 // background-color: yellowgreen;
 display: flex;
+@media screen and (max-width: 500px) {
+    width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
 
 flex-direction: column;
 margin-right: 0px;
@@ -234,13 +278,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: row;
-@media screen and (max-width: 768px){
+@media screen and (max-width: 500px){
     display: flex;
-    align-items    : center;
+    align-items: center;
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 60px;
 }
 `
 const Container = styled.div`

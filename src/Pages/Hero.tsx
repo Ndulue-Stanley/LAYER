@@ -50,15 +50,15 @@ const Button = styled.button<{bg: string, wd: string, bd: string, ml: string}>`
 `
 const Img = styled.img`
   height: 95%;
-  @media screen and (max-width: 768px) {
-      height: 35%;
+  @media screen and (max-width: 500px) {
+      height: 25%;
   }
 `
 const Right = styled.div`
   width: 55%;
   display: flex;
   justify-content: center;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
       width: 100%;
       margin-top: 60px;
       justify-content: center;
@@ -75,7 +75,7 @@ const Left = styled.div`
     font-size: 37px;
     font-weight: 600;
     margin-bottom: 25px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 500px) {
       font-size: 30px;
     }
     span{
@@ -86,12 +86,12 @@ const Left = styled.div`
     color: #fff;
     margin: 0;
     line-height: 31px;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 500px) {
       font-size: 13px;
       width: 80%;
     }
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     width: 100%;
   }
 `

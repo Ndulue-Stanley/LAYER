@@ -83,7 +83,12 @@ position: relative;
 text-align: center;
 flex-direction: column;
 `
-const Img = styled.img``
+const Img = styled.img`
+@media screen and (max-width: 500px){
+ width : 65%;
+
+}
+`
 const Middle = styled.div`
 width: 100%;
 height: 100%;
@@ -91,6 +96,14 @@ height: 100%;
 display: flex;
 align-items: center;
 justify-content: space-between;
+flex-wrap: wrap;
+@media screen and (max-width: 500px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
 `
 const Line1 = styled.div`
 width: 30px;
@@ -144,7 +157,13 @@ display: flex;
 align-items: center;
 justify-content: space-around;
 flex-direction: column;
-
+@media screen and (max-width: 500px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
 `
 const Container = styled.div`
 width: 100%;
@@ -158,6 +177,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 margin-top: 100px;
+
 `
 
 

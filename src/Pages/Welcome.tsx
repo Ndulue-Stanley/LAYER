@@ -159,12 +159,14 @@ height: 25%;
 /* background-color: yellowgreen; */
 display: flex;
 gap: 50px;
-margin-top: 60px;
+margin-top: 0px;
 @media screen and (max-width: 768px) {
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    margin-top: 0px;
 }
 `
 
@@ -197,8 +199,9 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 margin-top: 100px;
+flex-wrap: wrap;
 @media screen and (max-width: 768px) {
-    flex-wrap: wrap;
+    width: 100%;
 }
 `
 const Container = styled.div`

@@ -52,7 +52,7 @@ const Navhold = styled.div`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 500px) {
     display: none;
   }
 `
@@ -65,6 +65,9 @@ const Wrapper = styled.div`
   height: 100%;
   align-items: center;
   justify-content: space-between;
+  @media screen and (max-width: 500px) {
+   width : 100%;
+  }
 `
 const Container = styled.div`
   display: flex;

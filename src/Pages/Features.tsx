@@ -137,6 +137,9 @@ justify-content: center;
     /* transform: scale(1.05); */
     transition: all ease-in-out 350ms;
 }
+@media screen and (max-width: 500px){
+    margin-left: 40px;
+}
 `
 const First = styled.div`
 width: 350px;
@@ -167,7 +170,7 @@ align-items: center;
 justify-content: space-evenly;
 flex-direction: column;
 gap: 45px;
-@media screen and (max-width: 768px){
+@media screen and (max-width: 500px){
  display: flex;
  justify-content: space-evenly;
  align-items: center;
@@ -181,7 +184,7 @@ height: 85%;
 display: flex;
 justify-content: space-between;
 align-items: center;
-@media screen and (max-width: 768px){
+@media screen and (max-width: 500px){
     display: flex;
     justify-content: space-around;
     align-items: center;
